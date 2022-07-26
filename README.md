@@ -1,3 +1,9 @@
+# Baixando a imagem do MongoDB no Docker:
+
+docker run --name mongoapi -d -p 27017:27017 mongo:latest
+
+##
+
 # mongoose-typescript
 Build mongoose schema with typescript and decorator
 
